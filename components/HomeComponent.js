@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 import { View, Text, ScrollView } from 'react-native';
 import { Card } from 'react-native-elements';
 import { CAMPSITES } from '../shared/campsites';
@@ -14,8 +14,7 @@ function RenderItem({item}) {
                 <Text
                     style={{margin: 10}}>
                     {item.description}
-                </Text
-                >    
+                </Text>    
             </Card>
         );
     }
@@ -30,7 +29,7 @@ class Home extends Component {
             campsites: CAMPSITES,
             partners: PARTNERS,
             promotions: PROMOTIONS
-        }
+        };
     }
 
     static navigationOptions = {
