@@ -20,8 +20,7 @@ class Contact extends Component {
                     <Text>
                         Seattle, WA 98001
                     </Text>
-                    <Text
-                        style={{marginBottom: 10}}>
+                    <Text style={{marginBottom: 10}}>
                         U.S.A.
                     </Text>
                     <Text>
